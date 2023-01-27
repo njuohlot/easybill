@@ -1,0 +1,49 @@
+body{
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("https://invoicebus.com/templates/wp-content/uploads/Simple-and-clean-invoice-template-split-3.jpg");
+}
+.footer li{
+    margin: 0.5rem 0.2rem;
+}
+button{
+    user-select: none;
+}
+input, textarea{
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.8rem;
+    color: #383838;
+    font-weight: 600;
+}
+label{
+    margin-bottom: 0.3rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #112827;
+}
+
+@media only screen and (max-width: 768px) {
+    .invoice{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    table{
+        width: 170%;
+    }
+ 
+    
+}
+thead{
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+
+
+

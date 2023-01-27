@@ -1,0 +1,143 @@
+
+.hero{
+    height: 100vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("https://invoicebus.com/templates/wp-content/uploads/Simple-and-clean-invoice-template-split-3.jpg");
+}
+header{
+    display: flex;
+    height: 66px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.logo-start{
+    color:  rgb(40, 69, 11);
+}
+.logo h1{
+    color: gray;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+header button{
+    color: #121212;
+    padding: 2px 8px;
+    transition: all 3s;
+    width: 120px;
+    border-radius: 3px;
+    height: 40px;
+    border: 1px solid goldenrod;
+}
+header button:hover{
+    border: none;
+    transition: all 3s;
+}
+.text{
+    background-color: #fff;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 36%;
+    left: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.text h1{
+    padding: 15px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.text button{
+    background-color: goldenrod;
+    color: white;
+    padding: 2px 8px;
+    transition: all 3s;
+    width: 120px;
+    border-radius: 3px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.text button:hover{
+    background-color: rgb(40, 69, 11);
+    transition: all 3s;
+}
+.text p{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.roadMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+.roadMap h2{
+    line-height: 3;
+    margin: 25px;
+}
+.row1, .row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: #f1f1f1;
+
+}
+.r1, .r2, .r3, .r4, .r5, .r6 {
+    height: 200px;
+    width: 250px;
+    background-color: #f1f1f1;
+    margin: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.row1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.row2{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .text{
+       left: 10.5%;
+       top: 30%;
+       height: 330px;
+       width: 290px;
+       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+       border-radius: 8px;
+    }
+    .hero{
+        height: 100vh;
+    }
+    .text p{
+        padding: 3px;
+        font-size: 13px;
+        text-align: center !important;
+    }
+    .text h1{
+        text-align: center !important;
+    }
+ 
+    
+}
